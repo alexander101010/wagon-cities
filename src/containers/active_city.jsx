@@ -5,7 +5,7 @@ const ActiveCity = (props) => {
   if (!props.activeCity) {
     return (
       <div className="active-city">
-        <p>Select a city...</p>
+        <p className="waiting-for-active-city">Select a city...</p>
       </div>
     );
   }
